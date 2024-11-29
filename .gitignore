@@ -19,3 +19,24 @@ models/*.keras
 Config/*.json
 
 venv/
+
+# Flutter build files
+build/
+*.lock
+
+# Dart analysis
+.dart_tool/
+.packages
+
+# IDE settings
+.idea/
+.vscode/
+
+# iOS and Android directories
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+
+# Node.js modules
+node_modules/

@@ -85,4 +85,49 @@ To set up the backend locally, follow these steps:
     ```bash
     http://localhost:5000.
     
+---
+## **Frontend: Flutter Mobile Application**
 
+### **Overview**
+The **frontend** of the application is built using **Flutter**, a powerful UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It provides users with an intuitive interface to interact with the backend, upload audio files, view transcriptions, and see emotion analysis.
+
+### **Features**
+- **User Authentication**: Users can sign in using their phone number via Firebase Authentication.
+- **Audio Upload**: Allows users to upload audio files for processing.
+- **Emotion Display**: Displays transcribed text along with detected emotions.
+- **Cross-Platform Compatibility**: Works seamlessly on both Android and iOS devices.
+- **Responsive Design**: Delivers a consistent user experience across devices.
+
+### **Technologies Used**
+- **Flutter** for the mobile application
+- **Dart** for application logic
+- **Firebase Authentication** for secure login
+- **HTTP requests** for communication with the Flask backend
+
+### **Setup and Installation**
+To set up the frontend locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HearMeWell/HearMeWell_BachelorProject.git
+
+2. Navigate to the frontend directory:
+    ```bash
+    cd HearMeWell_BachelorProject/HearMeWell_Frontend
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+
+4. Set Up Firebase for the Application:
+- Go to Firebase Console and create a new Firebase project.
+- Download the google-services.json file for Android and place it in the android/app directory.
+- Download the GoogleService-Info.plist file for iOS and place it in the ios/Runner directory.
+- Update the android/build.gradle and android/app/build.gradle files as per Firebase setup instructions.
+  
+5. Run the application:
+   ```bash
+   flutter run
+
+6. The app will be deployed to your connected Android/iOS device or emulator.
+ 

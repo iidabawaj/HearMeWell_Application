@@ -15,3 +15,5 @@ Temp/
 # Ignore large model files
 models/*.h5
 models/*.keras
+
+Config/*.json

@@ -41,18 +41,25 @@ To set up the backend locally, follow these steps:
    git clone https://github.com/HearMeWell/HearMeWell_BachelorProject.git
 
 2. Navigate to the backend directory:
+   ```bash
    cd backend
-3. Create a virtual environment (optional but recommended):
+4. Create a virtual environment (optional but recommended):
+   ```bash
     python -m venv venv
 
-4. Install dependencies:
+6. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-5. Set up Firebase (Follow Firebase setup instructions to create your project and download the credentials file):
+8. Set up Firebase (Follow Firebase setup instructions to create your project and download the credentials file):
+   ```bash
    Place the Firebase credentials JSON file in the Config/ folder.
    
-6. Run the Flask application:
-   python app.py
+10. Run the Flask application:
+    ```bash
+    python app.py
 
-7. The backend will be running on http://localhost:5000.
+12. The backend will be running on
+    ```bash
+    http://localhost:5000.
 

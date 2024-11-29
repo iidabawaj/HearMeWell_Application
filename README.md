@@ -1,6 +1,6 @@
 # **HearMeWell: An Application for Emotion Signal Detection and Speech Recognition from Arabic Voice Messages** 
 
-HearMeWell is a comprehensive solution that processes audio inputs to provide transcriptions accompanied by emotion recognition. The system comprises a Flask-based backend and a Flutter-based mobile frontend, delivering seamless user interaction and robust processing capabilities to help individuals with hearing impairments communicate effectively and understand emotions.
+> HearMeWell is a comprehensive solution that processes audio inputs to provide transcriptions accompanied by emotion recognition. The system comprises a Flask-based backend and a Flutter-based mobile frontend, delivering seamless user interaction and robust processing capabilities to help individuals with hearing impairments communicate effectively and understand emotions.
 ---
 
 ## Table of Contents
@@ -131,3 +131,49 @@ To set up the frontend locally, follow these steps:
 
 6. The app will be deployed to your connected Android/iOS device or emulator.
  
+
+--- 
+## **Folder Structure**
+
+### Backend
+
+  ```bash
+     backend/
+     ├── app.py                    # Main Flask application
+     ├── emotion_recognition.py     # Emotion recognition logic
+     ├── models/                    # Saved model files (e.g., EfficientNetB0)
+     ├── requirements.txt           # Python dependencies
+     ├── Config/                    # Firebase credentials and config
+     ├── templates/                 # HTML templates (if any)
+     ├── speech_to_text.py          # Speech-to-text logic using Whisper
+     └── testmodel.py               # Testing models
+```
+### Frontend 
+```bash
+frontend/
+├── lib/
+│   ├── main.dart              # Main entry point for the app
+│   ├── screens/               # UI screens (e.g., WelcomeScreen, LoginScreen)
+│   └── services/              # Services for API calls, Firebase auth
+├── assets/                    # Images, fonts, etc.
+├── pubspec.yaml               # Flutter dependencies
+└── android/                   # Android-specific configurations
+```
+
+---
+
+## Contribution 
+---
+
+## License 
+
+---
+## Acknowledgements
+
+
+- OpenAI Whisper: Used for speech-to-text transcription.
+- EfficientNet: Used for emotion recognition.
+- Firebase: Used for user authentication.
+
+ 
+

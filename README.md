@@ -1,4 +1,4 @@
-# **HearMeWell: Emotion Recognition App**
+# **HearMeWell: An Application for Emotion Signal Detection and Speech Recognition from Arabic Voice Messages** 
 
 HearMeWell is a comprehensive solution that processes audio inputs to provide transcriptions accompanied by emotion recognition. The system comprises a Flask-based backend and a Flutter-based mobile frontend, delivering seamless user interaction and robust processing capabilities to help individuals with hearing impairments communicate effectively and understand emotions.
 ---

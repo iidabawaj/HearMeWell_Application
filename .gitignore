@@ -17,3 +17,5 @@ models/*.h5
 models/*.keras
 
 Config/*.json
+
+venv/

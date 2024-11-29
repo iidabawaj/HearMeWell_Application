@@ -1,0 +1,17 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore cached files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore temporary files
+Temp/
+
+# Ignore large model files
+models/*.h5
+models/*.keras

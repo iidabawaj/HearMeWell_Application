@@ -1,6 +1,20 @@
 # **HearMeWell: Emotion Recognition App**
 
-> An application that integrates speech-to-text technology with emotion recognition, designed to help individuals with hearing impairments communicate effectively and understand emotions.
+HearMeWell is a comprehensive solution that processes audio inputs to provide transcriptions accompanied by emotion recognition. The system comprises a Flask-based backend and a Flutter-based mobile frontend, delivering seamless user interaction and robust processing capabilities to help individuals with hearing impairments communicate effectively and understand emotions.
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -42,24 +56,33 @@ To set up the backend locally, follow these steps:
 
 2. Navigate to the backend directory:
    ```bash
-   cd backend
-4. Create a virtual environment (optional but recommended):
+   cd HearMeWell_BachelorProject/HearMeWell_Backend
+   
+3. Create and Activate a virtual environment (optional but recommended):
    ```bash
     python -m venv venv
+   
+    # On Windows
+   venv\Scripts\activate
+   
+   # On Unix or MacOS
+   
+   source venv/bin/activate
 
-6. Install dependencies:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
 
-8. Set up Firebase (Follow Firebase setup instructions to create your project and download the credentials file):
+5. Set Up Environment Variables:
    ```bash
-   Place the Firebase credentials JSON file in the Config/ folder.
+   Create a .env file in the backend directory with the necessary configurations.
    
-10. Run the Flask application:
+6. Run the Flask application:
     ```bash
     python app.py
 
-12. The backend will be running on
+7. The backend will be running on
     ```bash
     http://localhost:5000.
+    
 

@@ -33,6 +33,9 @@ The application is composed of two main components:
 ### **Overview**
 The **backend** of the application is built using **Flask**, a lightweight Python web framework. It is responsible for handling API requests, processing audio files, performing **speech-to-text** using the **Whisper model**, and emotion recognition using a pre-trained **EfficientNetB0 model**.
 
+![image](https://github.com/user-attachments/assets/a2892e1d-b91a-4b61-a6da-32cc3c0f40d3)
+
+
 ### **Features**
 - **Speech-to-Text**: Converts audio input into text using OpenAI’s **Whisper** model.
 - **Emotion Recognition**: Analyzes the audio to detect emotions such as happiness, sadness, anger, etc.
@@ -95,8 +98,14 @@ The **frontend** of the application is built using **Flutter**, a powerful UI to
 - **User Authentication**: Users can sign in using their phone number via Firebase Authentication.
 - **Audio Upload**: Allows users to upload audio files for processing.
 - **Emotion Display**: Displays transcribed text along with detected emotions.
-- **Cross-Platform Compatibility**: Works seamlessly on both Android and iOS devices.
+- **Cross-Platform Compatibility**: Works seamlessly on Android and iOS devices.
 - **Responsive Design**: Delivers a consistent user experience across devices.
+
+![WelcomeScreen](https://github.com/user-attachments/assets/423e187c-9880-4dd6-9951-74f780456ae0)
+![Login](https://github.com/user-attachments/assets/feeb5fa4-ba2a-408a-84d4-cab914efab3a)
+
+![chat screen](https://github.com/user-attachments/assets/467ac0a5-2f27-4b40-b61a-2ef3224e85cf)
+
 
 ### **Technologies Used**
 - **Flutter** for the mobile application
